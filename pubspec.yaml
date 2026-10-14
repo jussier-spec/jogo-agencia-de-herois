@@ -1,0 +1,29 @@
+name: agents_simples
+description: Trabalho de Desenvolvimento para Dispositivos Moveis - UFRN
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  sqflite: ^2.3.3+2
+  path: ^1.9.0
+  shared_preferences: ^2.3.3
+  cached_network_image: ^3.4.1
+  infinite_scroll_pagination: ^5.1.1
+  primer_progress_bar: ^0.5.0
+  awesome_dialog: ^3.2.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

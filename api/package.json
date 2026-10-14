@@ -1,0 +1,12 @@
+{
+  "name": "api-agentes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare-data": "node prepare_data.js",
+    "start": "json-server --watch db.json --host 0.0.0.0 --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
